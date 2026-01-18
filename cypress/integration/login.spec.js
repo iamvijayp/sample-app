@@ -3,7 +3,7 @@ describe('Login Page', () => {
     cy.visit('http://localhost:3000/login');
     cy.get('input[name="username"]').type('user');
     cy.get('input[name="password"]').type('pass');
-    cy.get('button[type="submit"]').click();
+    cy.get('button[type="submit!"]').click();
     cy.contains('Login successful');
   });
 
