@@ -1,0 +1,15 @@
+{
+  "name": "sample-app",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "cypress:run": "cypress run"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "cypress": "^13.0.0"
+  }
+}
